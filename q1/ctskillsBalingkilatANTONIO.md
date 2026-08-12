@@ -1,1 +1,19 @@
+Section: 09 - BALINGKILAT  
+C#/NAME - 01 - ANTONIO, Matt Nathaniel M.  
+Date: 11/08/2026
+
+# Main Problem: 
+The canteen's process of selling relies on manual tracking which can be inefficient and unreliable.
+
+# Sub-Problems: 
+1. Students kill time because they take too long to decide what to order.
+2. Inventory tracking is not present, so staffs don't know when items are about to run out.
+3. Cashiers struggle to calculate totals and change at the time being, which can lead to unreliability.
+
+# Apply CT skills for each Sub-Problem:
+1. Code an automated billing calculator designed for cashiers in order to calculate expenses and totals. **->** | Algorithmic Thinking
+2. Categorize the food by recommending best-sellers and the best foods in their category based on students' purchasing pattern. (**e.g.** Desserts: I recommend Ice Cream!) **->** | Pattern Recognition
+3. Create a code to automatically save purchases by students to some sort of database. **->** | Algorithmic Thinking
+
+
 
