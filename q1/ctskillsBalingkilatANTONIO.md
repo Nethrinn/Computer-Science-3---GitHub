@@ -15,5 +15,28 @@ The canteen's process of selling relies on manual tracking which can be ineffici
 2. Categorize the food by recommending best-sellers and the best foods in their category based on students' purchasing pattern. (**e.g.** Desserts: I recommend Ice Cream!) **->** | Pattern Recognition
 3. Create a code to automatically save purchases by students to some sort of database. **->** | Algorithmic Thinking
 
+# The Flowchart:
+```mermaid
+graph TD
+    A([Start]) --> B[/Input ordered items and quantities/]
+    B --> C[Retrieve item prices]
+    C --> D[Calculate subtotal]
+    D --> E[Display total amount]
+    E --> F[/Input amount paid/]
+    
+    F --> G{Is amount paid >= total?}
+    
+    G -- No --> H[Ask for additional payment]
+    H --> I[/Input additional payment/]
+    I --> G
+    
+    G -- Yes --> J[Calculate change]
+    J --> K[Display change]
+    K --> L[Save transaction]
+    L --> M([End])
+```
+
+
+
 
 
