@@ -11,11 +11,12 @@ The canteen's process of selling relies on manual tracking which can be ineffici
 3. Cashiers struggle to calculate totals and change at the time being, which can lead to unreliability.
 
 # Apply CT skills for each Sub-Problem:
-1. Code an automated billing calculator designed for cashiers in order to calculate expenses and totals. **->** | Algorithmic Thinking
-2. Categorize the food by recommending best-sellers and the best foods in their category based on students' purchasing pattern. (**e.g.** Desserts: I recommend Ice Cream!) **->** | Pattern Recognition
-3. Create a code to automatically save purchases by students to some sort of database. **->** | Algorithmic Thinking
+- Cashiers struggle to calculate totals and change at the time being, which can lead to unreliability. --> Code an automated billing calculator designed for cashiers in order to calculate expenses and totals. **->** || Algorithmic Thinking
+-  Inventory tracking is not present, so staffs don't know when items are about to run out. --> Categorize the food by recommending best-sellers and the best foods in their category based on students' purchasing pattern. (**e.g.** Desserts: I recommend Ice Cream!) **->** || Pattern Recognition
+-  Students kill time because they take too long to decide what to order. --> Create a code to automatically save purchases by students to some sort of database. **->** || Algorithmic Thinking
 
-# The Flowchart:
+# The Flowchart
+## (Used Sub-Problem No. 2 and 3)
 ```mermaid
 graph TD
     A([Start]) --> B[/Input ordered items and quantities/]
