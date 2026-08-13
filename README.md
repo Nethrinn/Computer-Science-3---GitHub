@@ -1,6 +1,7 @@
 # Nethrinn's CS3-Repository
 Only for CS3 activities
-## 03-ANTONIO (Nethrinn) Matt Nathaniel of IX-BALINGKILAT
-This is Matt's CS3 Repository.
-
+## Introduction
+Greetings! I am **Matt** from **IX-Balingkilat** and this is my code repository.
+### Edit Changes to README.md
+None
 
