@@ -14,10 +14,10 @@ class Car:
         print("You successfully charged your car!")
         print("Your",self.brand,self.model,"has",self.battery,"wH left.")
         
-brand = input("What is the brand of your electric car? ")
-model = input("What is the model of your electric car? ")
-eSasakyan = Car(brand,model)
-while eSasakyan.battery > 0:
+brand = input("What is the brand of your electric car? ")   #1st Prompt
+model = input("What is the model of your electric car? ") #2nd Prompt
+eSasakyan = Car(brand,model)                            #Creates the Car (Model and Brand)
+while eSasakyan.battery > 0:         #Loop + Decision Structure for Going & Charging
     prompt = input("What do you want to do? (go, charge) ").lower()
     if prompt == "go":
         distance = int(input("How far did you travel? "))
@@ -29,7 +29,7 @@ while eSasakyan.battery > 0:
         print("!!!!Invalid Action!!!!")
 print("")
 print("=============================")
-print("          GAME OVER")
+print("          GAME OVER")                             #End Screen
 print("=============================")
 print("Your car ran out of battery..")
         
