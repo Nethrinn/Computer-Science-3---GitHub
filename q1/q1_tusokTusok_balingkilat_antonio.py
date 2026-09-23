@@ -1,25 +1,21 @@
-class Tusoktusok:
-    sauce = None
-    def __init__(self,name):
-        self.name = name
-    def dip(self,sauce):
-        self.sauce = sauce
-    def eat(self):
-        print("I am eating" ,self.name)
-        if self.sauce != None:
-            print("It was dipped in" ,self.sauce.name, "and it tastes" ,self.sauce.name)
-
 class Sauce:
-    def __init__(self,name,taste):
+    def __init__(self, name, taste):
         self.name = name
         self.taste = taste
-    def __del__(self):
-        print("Ay natapon ang" ,self.name,"Wala na tuloy")
+        print("The sauce I prepared, which is the", self.name, "is ready! And it tastes..", self.taste, "!")
 
-fishball = Tusoktusok("fishball")
-vinegar = Sauce("vinegar","sour")
-fishball.dip(vinegar)
-fishball.eat()
-kikiam = Tusoktusok("kikiam")
-del vinegar
-print()
+class TusokTusok:
+    def __init__(self, name, sauce):
+        self.name = name
+        self.sauce = sauce
+        print("My", self.name, "is being dipped by some tasty..", self.sauce.name, "!")
+    def eat(self):
+        print("I am currently eating a", self.name, "with some tasty", self.sauce.name, "!")
+    def __del__(self):
+        print("It looks like I threw the", self.name, "in the trash can, such a bummer..")
+        
+Vinegar = Sauce("vinegar", "sour")
+Fishball = TusokTusok("Fishball", Vinegar)
+Fishball.eat()
+
+Fishball.sauce = None
