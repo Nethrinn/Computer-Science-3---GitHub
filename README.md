@@ -14,4 +14,5 @@ Modified for the ComSci **BIG CHECK**
 
 [TusokTusok](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_tusokTusok_balingkilat_antonio.py)
 ### FA Codes:
+[FA 1](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_sg2_a1.md)
 
