@@ -1,4 +1,4 @@
-## Nethrinn's CS3-Repository
+# Nethrinn's CS3-Repository
 
 **Matt Nathaniel’s CS3 activities**
 
