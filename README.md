@@ -23,3 +23,7 @@ Modified for the ComSci **BIG CHECK**
 [FA#4](https://canva.link/ihn6p9k2ad8e5i4)
 
 [FA#5](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_sg5_a1_balingkilat_antonio.py)
+
+[FA#6](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_sg6_balingkilat_antonio.py)
+
+[FA#7](
