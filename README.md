@@ -11,6 +11,7 @@ Modified for the ComSci **BIG CHECK**
 ## III. Links to the Samples and FA Codes
 ### Sample Codes:
 [Car](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_mycar_balingkilat_antonio.py)
-[TusokTusok](
+
+[TusokTusok](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_tusokTusok_balingkilat_antonio.py)
 ### FA Codes:
 
