@@ -18,8 +18,8 @@ Modified for the ComSci **BIG CHECK**
 
 [FA#2](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_sg2_a3.py)
 
-[FA#3] Answered by yours truly
+**FA#3:** Answered by yours truly :)
 
-[FA#4](
+[FA#4](https://canva.link/ihn6p9k2ad8e5i4)
 
 [FA#5](https://github.com/Nethrinn/Computer-Science-3---GitHub/blob/main/q1/q1_sg5_a1_balingkilat_antonio.py)
